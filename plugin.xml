@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-AWSS3Framework"
+	version="2.5.6">
+	<name>AWSS3Framework Plugin</name>
+	<description>This plugin adds the AWSS3Framework library to project</description>
+	<license>MIT</license>
+	<keywords>cordova,AWSCore</keywords>
+	<engines>
+		<engine name="cordova" version=">=4.0.0" />
+	</engines>
+	<platform name="ios">
+        <framework src="src/ios/AWSS3.framework" custom="true" embed="true"/>
+    </platform>
+</plugin>
